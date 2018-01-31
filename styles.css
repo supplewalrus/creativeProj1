@@ -1,0 +1,99 @@
+h1 {
+    text-align: center;
+}
+
+p{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+
+#imgWrap {
+    border-style: solid;
+    border-width: 5px;
+}
+
+
+#barLi {
+    float: left;
+}
+
+#navHead{
+    font-family: 'Arizonia', Helvetica, sans-serif;
+    color: white;
+    float: left;
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(66, 66, 66);
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-top:25px;
+    font-size: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
+
+
+section {
+    display: flex;
+   }
+   
+aside {
+    flex: 1
+   }
+   
+article {
+    flex: 4
+   }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+  }
+
+  .object-fit-cover {
+    max-height:80%;
+    width: 80%;
+    object-fit: cover; /*magic*/
+  }
+
+  #center{
+      display float: center;
+  }
+
+  #aboutImg{
+    max-height:100%;
+    width: 100%;
+    object-fit: cover; /*magic*/
+  }
+
+  article h2{
+      padding-left: 20px;
+  }
+  
+  article p {
+    padding-left: 20px;
+  }
+
+  #rev{
+      list-style-type: none;
+  }
