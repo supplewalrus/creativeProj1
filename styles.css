@@ -5,12 +5,29 @@ h1 {
     margin: 0 auto;
 }
 
+a{
+    text-decoration: none;
+}
+
 h2{
     font-family: 'Quicksand';
+    color: rgb(60, 73, 143);
+    text-align: center;
 }
 
 p{
+    text-align: center;
+    color: rgb(60, 73, 143);
     font-family: 'Quicksand';
+}
+
+.titles p{
+    font-family: 'Quicksand';
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    color: rgb(60, 73, 143);
+    margin: 0 auto;
 }
 
 li{
@@ -20,6 +37,10 @@ li{
 img {
     margin: 0 auto;
     display: block;
+}
+
+aside{
+    flex: 2 !important;
 }
 
 form{
@@ -44,6 +65,10 @@ input, textarea {
 
 nav{
     padding: 20px;
+}
+
+footer{
+    padding-top: 20px;
 }
 
 nav p{
