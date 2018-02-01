@@ -1,6 +1,12 @@
 h1 {
     text-align: center;
     font-family: 'Quicksand';
+    color: rgb(60, 73, 143);
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'Quicksand';
 }
 
 p{
@@ -13,7 +19,6 @@ li{
 
 img {
     margin: 0 auto;
-    width: 70%;
     display: block;
 }
 
@@ -136,6 +141,6 @@ article {
 
 .object-fit-cover {
   width: 100%;
-  height: 400px;
+  height: 350px;
   object-fit: cover;
 }
